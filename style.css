@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("Mountain.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0 60px;
+  border-bottom: 1px solid rgb(242,113,24);
+  background: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,1));
+  font-family: 'Antic Slab', serif;
+
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#inWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 13% 0 13%;
+  height: 470px;
+}
+
+#shifter {
+  height: 400px;
+  width: 14%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  background-color: rgba(255,255,255,0.7);
+  box-shadow: -3px 0px 7px 0px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+#shifter div:first-child, #shifter div:last-child {
+  /* background: rgba(204,204,204, 0.5);
+  border: 1px solid rgb(242,113,24); */
+}
+
+.shiftme {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+}
+
+.shiftme button {
+  width: 100%;
+  padding: 0 10px;
+  background: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+.shiftme button:hover {
+  background-color: rgba(204,204,204, 0.5);
+}
+
+#mainContent {
+  display: flex;
+  height: 400px;
+  width: 80%;
+  background: white;
+  justify-content: space-between;
+  box-shadow: -3px 0px 7px 0px rgba(0,0,0,0.2);
+  border-radius: 5px;
+
+}
+
+#mainContent img {
+  width: 130px;
+  margin: 3% 0;
+}
+
+#leftPage, #rightPage {
+  height: 100%;
+  flex: 40% 1 1;
+  display: flex;
+  flex-flow: column;
+  padding: 0 3% 0 3%;
+
+}
+
+.lineDiv {
+  width: 100%;
+  height: 6%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.lineDiv {
+  color: gray;
+  font-size: 0.8em;
+}
+
+.lineDiv h5 {
+  color: rgb(242,113,24);
+  font-size: 1.1em;
+}
+
+.lineDivText {
+  border-bottom: 1px solid rgb(200,200,200);
+  width: 100%;
+  height: 6%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.lineDivText p {
+  font-size: 0.9em;
+  /* font-family: 'Delius', cursive; */
+  color: rgb(50,50,50);
+}
+
+#quote {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  bottom:0;
+}
+
+#quote p {
+  font-size: 1em;
+  background-color: rgba(255,255,255,0.7);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#wpw {
+  width: 100%;
+  position: absolute;
+  bottom: -750px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 100px 50px;
+  height: 650px;
+}
+
+.column {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.column:first-child, .column:last-child {
+  justify-content: space-between;
+}
+
+.innerColumn {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  text-align: justify;
+  padding: 20px;
+}
+
+.innerColumn h3 {
+  text-align: center;
+  color: rgb(255,102,0);
+}
+
+.textDiv {
+  background-color: rgb(204,204,204);
+  padding: 25px;
+  border-radius: 10px;
+  font-family: 'Antic Slab', serif;
+
+
+}
